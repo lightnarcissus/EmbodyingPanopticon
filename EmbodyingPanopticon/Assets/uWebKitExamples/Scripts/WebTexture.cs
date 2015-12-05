@@ -76,6 +76,7 @@ public class WebTexture : MonoBehaviour
             Vector3 mousePos = new Vector3();
             mousePos.x = x; 
             mousePos.y = y;
+           // Debug.Log(mousePos);
             view.ProcessMouse(mousePos);  
                                         
         }
@@ -89,6 +90,7 @@ public class WebTexture : MonoBehaviour
         
         if (Event.current.isKey)
         {
+            Debug.Log(Event.current.keyCode);
             view.ProcessKeyboard(Event.current);
         }
         
