@@ -147,10 +147,10 @@ GameObject:
   - 92: {fileID: 95226079}
   - 124: {fileID: 95226078}
   - 81: {fileID: 95226077}
-  - 114: {fileID: 95226082}
   - 114: {fileID: 95226084}
   - 114: {fileID: 95226083}
   - 114: {fileID: 95226085}
+  - 114: {fileID: 95226082}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 3b3866f84b7729d4890dcecec5f9a363, type: 3}
   displacementMap: {fileID: 2800000, guid: a181ca8e3c62f3e4b8f183f6c586b032, type: 3}
-  intensity: .74000001
+  intensity: .800000012
 --- !u!114 &95226083
 MonoBehaviour:
   m_ObjectHideFlags: 0

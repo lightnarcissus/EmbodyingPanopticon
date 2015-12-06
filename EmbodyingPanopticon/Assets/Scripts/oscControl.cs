@@ -32,12 +32,9 @@ public class oscControl : MonoBehaviour {
 	private Dictionary<string, ServerLog> servers;
 	private Dictionary<string, ClientLog> clients;
 	private float randVal=0f;
-    
-    /// <summary>
- 
-    /// </summary>
-
 	private String msg="";
+
+    public static float accX = 0f;
 	// Script initialization
 	void Start() {	
 		Cursor.visible = false;
@@ -50,8 +47,7 @@ public class oscControl : MonoBehaviour {
 		//initiator message
 		OSCHandler.Instance.SendMessageToClient("localhost", "blah",2f);
 
-        //updating Designer device
-        
+       
 		OSCHandler.Instance.UpdateLogs();
 
 	}
@@ -75,7 +71,7 @@ public class oscControl : MonoBehaviour {
             if (item.Value.log.Count > 0)
             {
                 int lastPacketIndex = item.Value.packets.Count - 1;
-                int beforeLastPacketIndex = item.Value.packets.Count - 2;
+             //   int beforeLastPacketIndex = item.Value.packets.Count - 2;
 
                 /*	UnityEngine.Debug.Log (String.Format ("SERVER: {0} ADDRESS: {1} VALUE : {2}", 
                                                             item.Key, // Server name
@@ -86,8 +82,18 @@ public class oscControl : MonoBehaviour {
                 //				Debug.Log ("one before that: "+item.Value.packets[beforeLastPacketIndex].Address);
                 //{
                 float tempVal = float.Parse(item.Value.packets[lastPacketIndex].Data[0].ToString());
+
+                //critic section begins
+                if (item.Value.packets[lastPacketIndex].Address == "/accxyz") //accelerometer XYZ
+                {
+
+                    accX = tempVal;
+
+                }
+
             }
         }
+			
 
 		foreach( KeyValuePair<string, ClientLog> item in clients )
 		{
