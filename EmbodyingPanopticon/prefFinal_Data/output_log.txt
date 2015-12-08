@@ -1,0 +1,71 @@
+Initialize engine version: 5.2.2f1 (3757309da7e7)
+[VRDevice] Successfully created device oculus.
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7620G + HD 8600M Dual Graphics (ID=0x9907)
+    Vendor:   ATI
+    VRAM:     2787 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.116 seconds
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\Ansh\Documents\GitHub\EmbodyingPanopticon\EmbodyingPanopticon\prefFinal_Data\Managed\Boo.Lang.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/Aubergine/Scanlines' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/Aubergine/Scanlines' - Setting to default shader.
+12/07/15 22:51:51: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_7.dll
+
+ 
+(Filename:  Line: 46)
+
+GameObject has both an AudioSource and an AudioListener attached. While built-in filters like lowpass are instantiated separately, the custom script DSP filter components may only be used by either the AudioSource or AudioListener at a time. In this case it was attached to the AudioListener first, so it remains connected to this.
+ 
+(Filename:  Line: 494)
+
+GameObject has both an AudioSource and an AudioListener attached. While built-in filters like lowpass are instantiated separately, the custom script DSP filter components may only be used by either the AudioSource or AudioListener at a time. In this case it was attached to the AudioListener first, so it remains connected to this.
+ 
+(Filename:  Line: 494)
+
+GameObject has both an AudioSource and an AudioListener attached. While built-in filters like lowpass are instantiated separately, the custom script DSP filter components may only be used by either the AudioSource or AudioListener at a time. In this case it was attached to the AudioListener first, so it remains connected to this.
+ 
+(Filename:  Line: 494)
+
+GameObject has both an AudioSource and an AudioListener attached. While built-in filters like lowpass are instantiated separately, the custom script DSP filter components may only be used by either the AudioSource or AudioListener at a time. In this case it was attached to the AudioListener first, so it remains connected to this.
+ 
+(Filename:  Line: 494)
+
+GameObject has both an AudioSource and an AudioListener attached. While built-in filters like lowpass are instantiated separately, the custom script DSP filter components may only be used by either the AudioSource or AudioListener at a time. In this case it was attached to the AudioListener first, so it remains connected to this.
+ 
+(Filename:  Line: 494)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Scale.LoadFromFile (UnityEngine.TextAsset dat_scales) [0x00000] in <filename unknown>:0 
+  at Jazzy..ctor () [0x00000] in <filename unknown>:0 
+  at MusicPlayer.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+172.16.12.80
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 16f0 -> priority: 1 
